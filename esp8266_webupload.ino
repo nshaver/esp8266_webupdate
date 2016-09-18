@@ -10,8 +10,8 @@
 
 // wifi
 const char* host= "esp8266";
-const char* ssid = "Tux24";
-const char* password = "a47a47a47a";
+const char* ssid = "your wifi ssid";
+const char* password = "your wifi password";
 MDNSResponder mdns;
 ESP8266WebServer server(80);
 ESP8266HTTPUpdateServer httpUpdater;
